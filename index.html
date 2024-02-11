@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquaries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Rossana Craveri</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#su di me">Su di me</a></li>
+                <li><a href="#esperienze">Esperienze</a></li>
+                <li><a href="#progetti">Progetti</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </div>           
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Rossana Craveri</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#su di me" onclick="togglemenu()" >Su di me</a></li>
+            <li><a href="#esperienze" onclick="togglemenu()">Esperienze</a></li>
+            <li><a href="#progetti" onclick="togglemenu()">Progetti</a></li>
+            <li><a href="#contatti" onclick="togglemenu()">Contatti</a></li> 
+        </div>
+        </div>
+    </nav>
+    <section id="Profilo">
+        <div class="section__pic-container">
+            <img src="./assets/profilouno.jpg" alt="Rossana Craveri foto profilo"> /
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Ciao! io sono</p>
+            <h1 class="title">Rossana</h1>
+            <p class="section__text__p2">Studentessa di Communication Design</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./forse/CVINIZIO copia.pdf')">Scarica CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contatti'">Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/insta.png" 
+                alt="Il mio instagram"
+                class="icon" 
+                onclick="location.href='https://www.instagram.com/ro_craveri?igsh=MmVlMjlkMTBhMg=='">
+                <img src="./assets/facebook4.png" 
+                alt="Il mio facebook"
+                class="icon" 
+                onclick="location.href='https://www.facebook.com/profile.php?id=100087376906298'">
+                
+            </div>
+        </div>
+    </section>
+    <section id="su di me">
+        <p class="section__text__p1">Scopri di più</p>
+        <h1 class="titolo">Su di me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/about-pic2fin.jpg" 
+                    alt="Foto profilo"
+                    class="about-pic2finpr"
+                    >
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" 
+                            alt="experience icon"
+                            class="icon">
+                            <h3>Esperienze</h3>
+                            <p>+2 anni <br>Illustratrice</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" 
+                            alt="education icon"
+                            class="icon">
+                            <h3>Educazione</h3>
+                            <p>Diploma Liceo Scientifico G.B. Bodoni <br>Laurea Design della Comunicazione (in corso)</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Sono una ragazza giovane con poca esperienza e tanta voglia 
+                            di imparare, cerco di esprimere la mia passione per l'arte 
+                            e la bellezza con tutto quello che faccio, mi definiscono creativa fin da quando ero una bambina, adoro creare cose e disegnare; e in tutto questo cerco di metterci più impegno possibile cercado di esprimermi sempre al massimo.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" 
+            alt="arrow icon" 
+            class="icon arrow"
+            onclick="location.href'./#esperienze'">
+    </section>
+    <section id="esperienze">
+        <p class="section__text__p1">Scopri le mie</p>
+        <h1 class="title">Esperienze</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Illustratrice</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>PHOTOSHOP</h3>
+                                    <P>esperta</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>ILLUSTRATOR</h3>
+                                    <P>esperta</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>BLENDER</h3>
+                                    <P>principiante</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>INDESIGN</h3>
+                                    <P>esperta</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>RHINO</h3>
+                                    <P>intermedia</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>AUTOCAD</h3>
+                                    <P>esperta</P>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Illustratrice</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>PIXLR</h3>
+                                    <P>esperta</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>MPC BEATS</h3>
+                                    <P>esperta</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>AD.CREATIVE</h3>
+                                    <P>intermedia</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>MPK</h3>
+                                    <P>esperta</P>
+                                </div>
+                            </article>
+                        
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience-icon"
+                                class="icon">
+                                <div>
+                                    <h3>MAXON</h3>
+                                    <P>principiante</P>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <img src="./assets/arrow.png" 
+            alt="arrow icon" 
+            class="icon"
+            onclick="location.href'./#progetti'">
+    </section>
+    <section id="progetti">
+        <p class="section__text__p1">scopri i recenti</p>
+        <h1 class="title">Progetti</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/projectrere-1.jpg" 
+                    alt="Progetto 1"
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Progetto Uno</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/in/ro-craveri-b648292ab'">
+                        Linkedin
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/rossanacraveri'">
+                        Behance 
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/project-2re.jpg" 
+                    alt="Progetto 2"
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Progetto Due</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/in/ro-craveri-b648292ab'">
+                        Linkedin
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/rossanacraveri'">
+                        Behance 
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/project-3.jpg" 
+                    alt="Progetto 3"
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Progetto Tre</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/in/ro-craveri-b648292ab'">
+                        Linkedin
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/rossanacraveri'">
+                        Behance 
+                    </button>
+                </div> 
+            </div> </div>
+        </div>
+    </section>
+    <section id="contatti">
+        <p class="section__text__p1">Fammi Sapere</p>
+        <h1 class="titolo">Contattami</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="mail icon" class="icon contact-icon">
+                <p><a href="mailto:ro.craveri@gmail.com">ro.craveri@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/icons8-punto-sulla-mappa-100.png" alt="maps icon" class="icon contact-icon">
+                <p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5681.644976957621!2d7.508965145532324!3d44.600655984291656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cd461cb242257d%3A0x6ff53872778f6057!2s12039%20Falicetto%20CN!5e0!3m2!1sit!2sit!4v1707670931653!5m2!1sit!2sit" width="220" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#su di me">Su di me</a></li>
+                    <li><a href="#esperienze">Esperienze</a></li>
+                    <li><a href="#progetti">Progetti</a></li>
+                    <li><a href="#contatti">Contatti</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Rossana Craveri</p>
+    </footer>
+  <script src="script.js"></script>  
+</body>
+</html>
